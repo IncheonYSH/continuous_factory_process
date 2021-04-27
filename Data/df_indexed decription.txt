@@ -1,1 +1,4 @@
 각 csv 파일 df(i)_indexed 는, Stage1.Output.Measurement(i).U.Actual 에 대한 전처리 결과 데이터임
+각 s2_df(i)_indexed 는, Stage2.Output.Measurement(i).U.Actual 에 대한 전처리 결과 데이터임
+
+stage1_preprocessed.csv : stage1 공통부분 전처리 결과 데이터 (stage2 작업 시 호출)
