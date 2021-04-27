@@ -1,3 +1,7 @@
+Data 출처 : https://www.kaggle.com/supergus/multistage-continuousflow-manufacturing-process
+
+
+
 # Python 코딩 스타일 가이드
 
 > [Google python style guide](https://google.github.io/styleguide/pyguide.html) 를 참고하였으며
