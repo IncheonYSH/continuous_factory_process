@@ -9,7 +9,7 @@ class Settings:
     전역 설정 클래스
 
     Attributes:
-        csv_path: .csv 파일이 위치한 디렉토리(str)
+        csv_path: .csv 파일이 위치한 경로(str)
     """
     def __new__(cls):
         if not hasattr(cls, "_instance"):
