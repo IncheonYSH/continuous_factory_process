@@ -122,9 +122,9 @@ def random_forest(output_index):
     plt.scatter(np.arange(len(x_test)), y_test, c="green")
     plt.show()
 
-    # target = pd.DataFrame(y_test[])
-    # plt.plot()
-
+    plt.plot(model.predict(x), "b", linewidth=1)
+    plt.plot(y, "r", linewidth=1)
+    plt.show()
 
 for i in range(15):
     random_forest(i)
